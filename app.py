@@ -105,7 +105,7 @@ def drone_run():
    
 
     # Take off to 100 meters altitude
-    arm_and_takeoff(vehicle, 30)
+    arm_and_takeoff(vehicle, 100)
 
     target_location = LocationGlobal(50.443326, 30.448078, 50) # 100 meters altitude
 
